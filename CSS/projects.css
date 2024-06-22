@@ -1,0 +1,122 @@
+
+#ProjectmainSection {
+    background-image: url('../pictures/Projects/homeBits.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+#ProjectmainSection2 {
+    background-image: url('../pictures/Projects/spades.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+#ProjectmainSection3 {
+    background-image: url('../pictures/Projects/calc.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+#ProjectmainBut{
+    border-radius: 50px; 
+    color: #000000; 
+    background-color: #FFA857; 
+    size: 9px; 
+    font-size: 24px; 
+    padding: 20px
+}
+
+#ProjectmainBut:hover {
+    background-color: rgb(241, 155, 79);
+    transform: scale(1.1);
+}
+
+
+/* Defining the content of the main page*/
+.ProjectmainContent {
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 10rem;
+    justify-content: center;
+
+}
+
+
+.Projectbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* The main Button enlarges when hovered */
+.Projectbutton:hover {
+    background-color: #eb740c;
+}
+
+/* This section defines the icons located at the bottom of the front page */
+.ProjectmainIcons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    padding-top: 50px;
+    padding-top: 50px;
+    
+}
+
+
+.ProjectmainIcons a {
+    display: inline-block;
+}
+
+.ProjectmainIcons img {
+    width: 40px; 
+    height: 40px; 
+}
+
+#Projectphone:hover{
+    transform: scale(1.2);
+}
+
+#ProjectInstagram:hover{
+    transform: scale(1.2);
+}
+
+#ProjectLinkedIn:hover{
+    transform: scale(1.2);
+}
+
+#ProjectMail:hover{
+    transform: scale(1.2);
+}

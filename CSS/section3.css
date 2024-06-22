@@ -1,0 +1,48 @@
+/* CSS for the second section in website */
+.profileSection2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fff;
+    gap: 160px;
+}
+
+.profileImage2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 50px;
+ 
+    
+}
+
+/* Defining the properties of the texts */
+.profileText2 {
+    max-width: 600px;
+    text-align:center;
+    padding-bottom: 120px;
+   
+}
+
+.profileText2 h1 {
+    font-size:54px;
+    margin: 0;
+    color:#313433;
+}
+
+.profileText2 h2 {
+    font-size:20px;
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profileText2 p {
+    color: #333;
+    line-height: 1.6;
+    text-align:left; 
+    padding-left:50px; 
+    font-size:17.7px
+}
